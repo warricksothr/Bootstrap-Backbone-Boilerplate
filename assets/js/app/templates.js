@@ -29,10 +29,19 @@ var templateSimpleAbout = _.template(
     "<div class=\"span8 \">" +
         "<span class=\"bigger\"><span class=\"underline\"><%= appName %></span></span>" +
         "<br>" +
+        "<br>" +
         "<b>Description: </b>" +
         "<p><%= desc %></p>" +
         "<b>Author: </b>" +
         "<p><%= author %></p>" +
+        "<b>Technologies Used:</b>" +
+        "<ul>" +
+            "<li><a href='http://twitter.github.com/bootstrap/index.html' target='_blank'>Twitter Bootstrap</a></li>" +
+            "<li><a href='http://underscorejs.org/' target='_blank'>Underscore.js</a></li>" +
+            "<li><a href='http://backbonejs.org/' target='_blank'>Backbone.js</a></li>" +
+            "<li><a href='http://jquery.com/' target='_blank'>JQuery</a></li>" +
+            //add additional technologies here
+        "</ul>" +
     "</div>",
     {appName:_appProps.name, desc:_appProps.description, author:_appProps.author}
 );

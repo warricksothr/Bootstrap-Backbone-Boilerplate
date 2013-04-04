@@ -9,5 +9,6 @@
 var _appProps = {
     name: "Example Application",
     description: "This simple example application is to demonstrate Backbone.js and Twitter Bootstrap working together to create a responsive application. It also provides a simple and clean boilerplate for quickly starting a new Backbone.js powered Twitter Bootstrap themed web application.",
-    author: "Drew Short"
+    author: "Drew Short",
+    contact: "drew@sothr.com"
 };
